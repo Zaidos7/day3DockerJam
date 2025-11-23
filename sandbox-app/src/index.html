@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sandbox App - Zaid</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Sandbox Controller</h1>
+    <div id="controls">
+      <button id="start">Start sandbox</button>
+      <button id="stop">Stop sandbox</button>
+      <button id="logsButton" onclick="toggle()">Toggle logs</button>
+      <button id="logsButton" onclick="toggleN()">Toggle network</button>
+      <button id="reset">Reset sandbox</button>
+    </div>
+    <br />
+    <pre hidden="true" id="logs">Logs</pre>
+    <pre hidden="true" id="network">Network</pre>
+    <script src="renderer.js"></script>
+    <p id="welcome">Welcome to OUR Electron app. 💜</p>
+  </body>
+</html>
